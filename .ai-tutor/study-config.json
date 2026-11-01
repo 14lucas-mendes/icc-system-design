@@ -1,0 +1,24 @@
+{
+  "schema_version": 2,
+  "study_id": "study_8eb50817-c4de-4edb-9fad-b9b4009c3e47",
+  "topic": "Engenharia de sistemas ICC ferroviários (ATS, SCADA, segurança e infraestrutura)",
+  "goal": "Projetar, documentar e validar uma arquitetura ICC ponta a ponta, cobrindo os requisitos técnicos do perfil ICC System Designer, com evidência prática.",
+  "deadline": null,
+  "weekly_hours": 4.5,
+  "preferred_times": [],
+  "initial_level": "Técnico experiente em sinalização de campo; iniciante em ICC, modelagem, normas e infraestrutura de TI.",
+  "language": "pt-BR",
+  "accessibility": [],
+  "source_policy": {
+    "prefer_primary": true,
+    "prefer_pt_br": true
+  },
+  "spacing_policy": {
+    "mode": "fixed",
+    "target_horizon_days": null
+  },
+  "teaching_policy": {
+    "approach": "theory_first"
+  },
+  "external_consents": {}
+}

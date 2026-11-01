@@ -1,0 +1,16 @@
+# Privado
+requisitos-*.md
+.ai-tutor/learner-profile.json
+
+# Mídia pesada
+media/
+
+# Laboratório: VMs ficam em E:, nunca aqui
+*.vhd
+*.vhdx
+*.iso
+
+# Sistema
+desktop.ini
+*.tmp
+__pycache__/

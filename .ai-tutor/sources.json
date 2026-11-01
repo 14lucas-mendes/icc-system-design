@@ -1,0 +1,76 @@
+{
+  "schema_version": 2,
+  "study_id": "study_8eb50817-c4de-4edb-9fad-b9b4009c3e47",
+  "revision": 2,
+  "sources": [
+    {
+      "source_id": "source_alstom_urbalis_vision",
+      "title": "Supervision: Advanced urban network control",
+      "author_or_institution": "Alstom",
+      "url": "https://www.alstom.com/iconis-urban-advanced-network-control",
+      "publication_date": null,
+      "accessed_at": "2026-10-31",
+      "source_type": "product_page",
+      "lesson_ids": [
+        "lesson_01_icc_visao"
+      ],
+      "topic_ids": [
+        "topic_icc_visao"
+      ],
+      "authority_reason": "Descrição do próprio fabricante sobre os módulos ATS, SCADA e ISM. É material comercial; os números de benefício não foram tratados como fatos independentes."
+    },
+    {
+      "source_id": "source_metro_magazine_icc",
+      "title": "Integrated Control Centers Bolster Rail Service Efficiency",
+      "author_or_institution": "Janna Starcic, Metro Magazine",
+      "url": "https://www.metro-magazine.com/articles/integrated-control-centers-bolster-rail-service-efficiency",
+      "publication_date": "2010-05-11",
+      "accessed_at": "2026-10-31",
+      "source_type": "trade_article",
+      "lesson_ids": [
+        "lesson_01_icc_visao"
+      ],
+      "topic_ids": [
+        "topic_icc_visao"
+      ],
+      "authority_reason": "Revista setorial com entrevistas de fabricantes. Conceitos seguem válidos; datas e números refletem 2010."
+    },
+    {
+      "source_id": "source_nasem_cbtc",
+      "title": "A Transit Agency Guide to Evaluating Secondary Train Detection/Protection Systems in Communications-Based Train Control Systems, cap. 4 (2018)",
+      "author_or_institution": "National Academies of Sciences, Engineering, and Medicine",
+      "url": "https://www.nationalacademies.org/read/25063/chapter/5",
+      "publication_date": null,
+      "accessed_at": "2026-10-31",
+      "source_type": "technical_report",
+      "lesson_ids": [
+        "lesson_01_icc_visao",
+        "lesson_04_ats",
+        "lesson_05_atc_cbtc"
+      ],
+      "topic_ids": [
+        "topic_icc_visao",
+        "topic_ats",
+        "topic_atc_cbtc_etcs"
+      ],
+      "authority_reason": "Relatório institucional dos EUA sobre CBTC. O trecho sobre ATS não vital foi lido por excerto de busca; a página aberta trouxe só título e sumário, então reler o capítulo antes da lição 04."
+    },
+    {
+      "source_id": "source_en50716_2023",
+      "title": "EN 50716:2023 (versão NEK)",
+      "author_or_institution": "CENELEC / NEK",
+      "url": "https://www.nek.no/wp-content/uploads/2025/03/nek-en-50716_2023_en_001.pdf",
+      "publication_date": null,
+      "accessed_at": "2026-10-31",
+      "source_type": "standard",
+      "lesson_ids": [
+        "lesson_21_en50716"
+      ],
+      "topic_ids": [
+        "topic_en50716"
+      ],
+      "authority_reason": "Norma primária. A substituição da EN 50128 foi lida por excerto de busca da capa; o PDF não pôde ser aberto aqui, então confirmar as datas de transição na lição 21."
+    }
+  ],
+  "updated_at": "2026-11-01T00:37:39Z"
+}

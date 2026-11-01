@@ -1,0 +1,715 @@
+{
+  "schema_version": 2,
+  "study_id": "study_8eb50817-c4de-4edb-9fad-b9b4009c3e47",
+  "revision": 1,
+  "updated_at": "2026-11-01T00:36:04Z",
+  "topics": [
+    {
+      "topic_id": "topic_icc_visao",
+      "name": "O que é um ICC: ATS, SCADA e segurança",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_eng_sistemas",
+      "name": "Engenharia de sistemas e ciclo em V",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_intertravamento_eletronico",
+      "name": "Intertravamento eletrônico e lógica vital",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_ats",
+      "name": "ATS: supervisão automática dos trens",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_atc_cbtc_etcs",
+      "name": "ATP, ATO, CBTC e ETCS",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_tcpip",
+      "name": "TCP/IP avançado",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_vlan_roteamento",
+      "name": "VLAN e roteamento básico",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_firewall_vpn",
+      "name": "Firewall e VPN",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_troubleshooting_rede",
+      "name": "Troubleshooting de conectividade",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_plc",
+      "name": "PLC e IEC 61131-3",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_scada",
+      "name": "SCADA: tags, alarmes e histórico",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_protocolos",
+      "name": "Modbus, DNP3, IEC 60870-5-104 e OPC UA",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_comunicacao_segura",
+      "name": "Comunicação segura ferroviária (EN 50159)",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_requisitos",
+      "name": "Requisitos e rastreabilidade",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_uml",
+      "name": "UML: casos de uso, classes, sequência e estados",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_sysml",
+      "name": "SysML: blocos, requisitos e paramétricos",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_interfaces",
+      "name": "Interfaces e fluxos de dados (ICD)",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_simulacao",
+      "name": "Projeto baseado em modelos e simulação",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_rams",
+      "name": "RAMS e EN 50126",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_sil_perigos",
+      "name": "SIL e análise de perigos",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_en50716",
+      "name": "Software ferroviário: da EN 50128 à EN 50716",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_caso_seguranca",
+      "name": "Caso de segurança (EN 50129)",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_vv",
+      "name": "Verificação e validação",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_ciberseguranca",
+      "name": "Cibersegurança ferroviária (IEC 62443)",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_servidores",
+      "name": "Servidores Dell, HPE e Lenovo",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_firmware_bios",
+      "name": "Firmware e BIOS",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_linux",
+      "name": "Administração Linux",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_windows_server",
+      "name": "Administração de Windows Server",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_servicos_logs",
+      "name": "Serviços e logs",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_hyperv",
+      "name": "Virtualização com Hyper-V",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_vsphere",
+      "name": "VMware vSphere",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_cluster",
+      "name": "Cluster e alta disponibilidade",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_raid",
+      "name": "RAID",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_san_nas_multipath",
+      "name": "SAN, NAS e multipath",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_replicacao",
+      "name": "Replicação",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_rpo_rto",
+      "name": "RPO e RTO",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_backup",
+      "name": "Backup com Veeam e NetApp",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_zabbix",
+      "name": "Monitoramento com Zabbix",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_grafana",
+      "name": "Painéis com Grafana",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_automacao",
+      "name": "Automação: PowerShell, Bash e Python",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_arquitetura_icc",
+      "name": "Arquitetura ICC escalável e redundante",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_revisao_projeto",
+      "name": "Revisão de projeto e redução de defeitos",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    },
+    {
+      "topic_id": "topic_documentacao_colaboracao",
+      "name": "Documentação e melhoria contínua",
+      "mastery": 0,
+      "retention": "unknown",
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": []
+    }
+  ],
+  "evidences": [],
+  "sessions": [],
+  "lessons": [
+    {
+      "lesson_id": "lesson_01_icc_visao",
+      "topic_id": "topic_icc_visao",
+      "status": "planned",
+      "session_ids": [],
+      "path": "lessons/01-o-que-e-um-icc.md"
+    },
+    {
+      "lesson_id": "lesson_02_eng_sistemas",
+      "topic_id": "topic_eng_sistemas",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_03_intertravamento",
+      "topic_id": "topic_intertravamento_eletronico",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_04_ats",
+      "topic_id": "topic_ats",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_05_atc_cbtc",
+      "topic_id": "topic_atc_cbtc_etcs",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_06_tcpip",
+      "topic_id": "topic_tcpip",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_07_vlan_roteamento",
+      "topic_id": "topic_vlan_roteamento",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_08_firewall_vpn",
+      "topic_id": "topic_firewall_vpn",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_09_troubleshooting",
+      "topic_id": "topic_troubleshooting_rede",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_10_plc",
+      "topic_id": "topic_plc",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_11_scada",
+      "topic_id": "topic_scada",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_12_protocolos",
+      "topic_id": "topic_protocolos",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_13_comunicacao_segura",
+      "topic_id": "topic_comunicacao_segura",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_14_requisitos",
+      "topic_id": "topic_requisitos",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_15_uml",
+      "topic_id": "topic_uml",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_16_sysml",
+      "topic_id": "topic_sysml",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_17_interfaces",
+      "topic_id": "topic_interfaces",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_18_simulacao",
+      "topic_id": "topic_simulacao",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_19_rams",
+      "topic_id": "topic_rams",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_20_sil_perigos",
+      "topic_id": "topic_sil_perigos",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_21_en50716",
+      "topic_id": "topic_en50716",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_22_caso_seguranca",
+      "topic_id": "topic_caso_seguranca",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_23_vv",
+      "topic_id": "topic_vv",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_24_ciberseguranca",
+      "topic_id": "topic_ciberseguranca",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_25_servidores",
+      "topic_id": "topic_servidores",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_26_firmware_bios",
+      "topic_id": "topic_firmware_bios",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_27_linux",
+      "topic_id": "topic_linux",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_28_windows_server",
+      "topic_id": "topic_windows_server",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_29_servicos_logs",
+      "topic_id": "topic_servicos_logs",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_30_hyperv",
+      "topic_id": "topic_hyperv",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_31_vsphere",
+      "topic_id": "topic_vsphere",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_32_cluster",
+      "topic_id": "topic_cluster",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_33_raid",
+      "topic_id": "topic_raid",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_34_san_nas",
+      "topic_id": "topic_san_nas_multipath",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_35_replicacao",
+      "topic_id": "topic_replicacao",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_36_rpo_rto",
+      "topic_id": "topic_rpo_rto",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_37_backup",
+      "topic_id": "topic_backup",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_38_zabbix",
+      "topic_id": "topic_zabbix",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_39_grafana",
+      "topic_id": "topic_grafana",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_40_automacao",
+      "topic_id": "topic_automacao",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_41_arquitetura_icc",
+      "topic_id": "topic_arquitetura_icc",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_42_revisao_projeto",
+      "topic_id": "topic_revisao_projeto",
+      "status": "planned",
+      "session_ids": []
+    },
+    {
+      "lesson_id": "lesson_43_documentacao",
+      "topic_id": "topic_documentacao_colaboracao",
+      "status": "planned",
+      "session_ids": []
+    }
+  ],
+  "weak_points": [],
+  "projects": [
+    {
+      "project_id": "project_icc_linha_aurora",
+      "name": "ICC Linha Aurora",
+      "status": "planned",
+      "path": "projects/icc-linha-aurora/",
+      "lesson_ids": [
+        "lesson_01_icc_visao",
+        "lesson_02_eng_sistemas",
+        "lesson_03_intertravamento",
+        "lesson_04_ats",
+        "lesson_05_atc_cbtc",
+        "lesson_06_tcpip",
+        "lesson_07_vlan_roteamento",
+        "lesson_08_firewall_vpn",
+        "lesson_09_troubleshooting",
+        "lesson_10_plc",
+        "lesson_11_scada",
+        "lesson_12_protocolos",
+        "lesson_13_comunicacao_segura",
+        "lesson_14_requisitos",
+        "lesson_15_uml",
+        "lesson_16_sysml",
+        "lesson_17_interfaces",
+        "lesson_18_simulacao",
+        "lesson_19_rams",
+        "lesson_20_sil_perigos",
+        "lesson_21_en50716",
+        "lesson_22_caso_seguranca",
+        "lesson_23_vv",
+        "lesson_24_ciberseguranca",
+        "lesson_25_servidores",
+        "lesson_26_firmware_bios",
+        "lesson_27_linux",
+        "lesson_28_windows_server",
+        "lesson_29_servicos_logs",
+        "lesson_30_hyperv",
+        "lesson_31_vsphere",
+        "lesson_32_cluster",
+        "lesson_33_raid",
+        "lesson_34_san_nas",
+        "lesson_35_replicacao",
+        "lesson_36_rpo_rto",
+        "lesson_37_backup",
+        "lesson_38_zabbix",
+        "lesson_39_grafana",
+        "lesson_40_automacao",
+        "lesson_41_arquitetura_icc",
+        "lesson_42_revisao_projeto",
+        "lesson_43_documentacao"
+      ]
+    }
+  ],
+  "next_focus": "lesson_01_icc_visao",
+  "diagnostics": [],
+  "retrieval_attempts": []
+}
