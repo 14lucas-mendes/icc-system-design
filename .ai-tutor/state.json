@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
   "study_id": "study_8eb50817-c4de-4edb-9fad-b9b4009c3e47",
-  "revision": 1,
-  "updated_at": "2026-11-01T00:36:04Z",
+  "revision": 2,
+  "updated_at": "2026-11-02T16:50:46Z",
   "topics": [
     {
       "topic_id": "topic_icc_visao",
       "name": "O que é um ICC: ATS, SCADA e segurança",
       "mastery": 0,
       "retention": "unknown",
-      "status": "not_started",
+      "status": "in_progress",
       "last_practice": null,
       "evidence_ids": []
     },
@@ -393,13 +393,34 @@
     }
   ],
   "evidences": [],
-  "sessions": [],
+  "sessions": [
+    {
+      "session_id": "session_2026-11-02_01",
+      "lesson_id": "lesson_01_icc_visao",
+      "topic_ids": [
+        "topic_icc_visao"
+      ],
+      "started_at": "2026-11-02T16:15:00Z",
+      "ended_at": "2026-11-02T16:50:46Z",
+      "status": "completed",
+      "objective": "Lição 01: teoria completa (seções 1.1 a 1.6) e checagens 1.7 em diálogo guiado.",
+      "activities": [
+        "teoria guiada em blocos",
+        "checagens de entendimento 1 a 4",
+        "erros comuns da seção 1.6"
+      ],
+      "evidence_ids": [],
+      "notes": "Diálogo guiado com o tutor; não conta como evidência. Tarefa prática (01-contexto.md), Feynman e transferência pendentes."
+    }
+  ],
   "lessons": [
     {
       "lesson_id": "lesson_01_icc_visao",
       "topic_id": "topic_icc_visao",
-      "status": "planned",
-      "session_ids": [],
+      "status": "in_progress",
+      "session_ids": [
+        "session_2026-11-02_01"
+      ],
       "path": "lessons/01-o-que-e-um-icc.md"
     },
     {
@@ -655,7 +676,24 @@
       "session_ids": []
     }
   ],
-  "weak_points": [],
+  "weak_points": [
+    {
+      "weak_point_id": "wp_falha_seguranca_vs_vital",
+      "topic_id": "topic_icc_visao",
+      "description": "Definiu falha de segurança como 'sistema vital falhou'; o critério é o lado da falha (wrong-side vs right-side). Corrigido em diálogo, reavaliar sem ajuda.",
+      "detected_at": "2026-11-02T16:50:46Z",
+      "session_id": "session_2026-11-02_01",
+      "status": "open"
+    },
+    {
+      "weak_point_id": "wp_justificativas_curtas",
+      "topic_id": "topic_icc_visao",
+      "description": "Respostas corretas, mas sem justificativa (erros comuns 1.6 respondidos só com certo/errado; afirmou que ICC é produto de prateleira e dura tanto quanto os trens).",
+      "detected_at": "2026-11-02T16:50:46Z",
+      "session_id": "session_2026-11-02_01",
+      "status": "open"
+    }
+  ],
   "projects": [
     {
       "project_id": "project_icc_linha_aurora",
