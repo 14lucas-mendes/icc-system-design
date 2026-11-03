@@ -184,6 +184,6 @@ Registrar evidências em `.ai-tutor/state.json`, ligar a sessão à lição, atu
 
 ## 3. Progresso
 
-- **Situação:** planejada. A teoria está escrita, e nenhuma sessão foi feita.
+- **Situação:** em andamento. Teoria e checagens feitas em `session_2026-11-02_01` (diálogo guiado).
 - **Evidências:** nenhuma.
 - **Falta:** leitura com checagens, tarefa independente, Feynman e transferência.

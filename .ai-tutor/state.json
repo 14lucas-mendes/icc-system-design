@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
   "study_id": "study_8eb50817-c4de-4edb-9fad-b9b4009c3e47",
-  "revision": 1,
-  "updated_at": "2026-11-01T00:36:04Z",
+  "revision": 3,
+  "updated_at": "2026-11-03T13:33:39Z",
   "topics": [
     {
       "topic_id": "topic_icc_visao",
       "name": "O que é um ICC: ATS, SCADA e segurança",
       "mastery": 0,
       "retention": "unknown",
-      "status": "not_started",
+      "status": "in_progress",
       "last_practice": null,
       "evidence_ids": []
     },
@@ -393,13 +393,52 @@
     }
   ],
   "evidences": [],
-  "sessions": [],
+  "sessions": [
+    {
+      "session_id": "session_2026-11-02_01",
+      "lesson_id": "lesson_01_icc_visao",
+      "topic_ids": [
+        "topic_icc_visao"
+      ],
+      "started_at": "2026-11-02T16:15:00Z",
+      "ended_at": "2026-11-02T16:50:46Z",
+      "status": "completed",
+      "objective": "Lição 01: teoria completa (seções 1.1 a 1.6) e checagens 1.7 em diálogo guiado.",
+      "activities": [
+        "teoria guiada em blocos",
+        "checagens de entendimento 1 a 4",
+        "erros comuns da seção 1.6"
+      ],
+      "evidence_ids": [],
+      "notes": "Diálogo guiado com o tutor; não conta como evidência. Tarefa prática (01-contexto.md), Feynman e transferência pendentes."
+    },
+    {
+      "session_id": "session_2026-11-03_01",
+      "lesson_id": "lesson_01_icc_visao",
+      "topic_ids": [
+        "topic_icc_visao"
+      ],
+      "started_at": "2026-11-03T00:00:00Z",
+      "ended_at": "2026-11-03T13:33:39Z",
+      "status": "interrupted",
+      "objective": "Aquecimento no ponto fraco e tarefa independente da Lição 01, partes 1 e 2.",
+      "activities": [
+        "aquecimento: falha de segurança × disponibilidade (contador de eixos)",
+        "tentativa 1 da Parte 1 do 01-contexto.md"
+      ],
+      "evidence_ids": [],
+      "notes": "Tentativa 1 parcial: só a Parte 1, sem a tabela de funções. A autoconferência foi pedida e ainda não feita; não houve retorno do tutor. Sem evidência até a revisão."
+    }
+  ],
   "lessons": [
     {
       "lesson_id": "lesson_01_icc_visao",
       "topic_id": "topic_icc_visao",
-      "status": "planned",
-      "session_ids": [],
+      "status": "in_progress",
+      "session_ids": [
+        "session_2026-11-02_01",
+        "session_2026-11-03_01"
+      ],
       "path": "lessons/01-o-que-e-um-icc.md"
     },
     {
@@ -655,7 +694,24 @@
       "session_ids": []
     }
   ],
-  "weak_points": [],
+  "weak_points": [
+    {
+      "weak_point_id": "wp_falha_seguranca_vs_vital",
+      "topic_id": "topic_icc_visao",
+      "description": "Definiu falha de segurança como 'sistema vital falhou'; o critério é o lado da falha (wrong-side vs right-side). Corrigido em diálogo, reavaliar sem ajuda. 2026-11-03: erro repetido no aquecimento; acertou só com pista. Continua aberto.",
+      "detected_at": "2026-11-02T16:50:46Z",
+      "session_id": "session_2026-11-02_01",
+      "status": "open"
+    },
+    {
+      "weak_point_id": "wp_justificativas_curtas",
+      "topic_id": "topic_icc_visao",
+      "description": "Respostas corretas, mas sem justificativa (erros comuns 1.6 respondidos só com certo/errado; afirmou que ICC é produto de prateleira e dura tanto quanto os trens).",
+      "detected_at": "2026-11-02T16:50:46Z",
+      "session_id": "session_2026-11-02_01",
+      "status": "open"
+    }
+  ],
   "projects": [
     {
       "project_id": "project_icc_linha_aurora",
@@ -711,5 +767,16 @@
   ],
   "next_focus": "lesson_01_icc_visao",
   "diagnostics": [],
-  "retrieval_attempts": []
+  "retrieval_attempts": [
+    {
+      "attempt_id": "ra_2026-11-03_01",
+      "topic_id": "topic_icc_visao",
+      "session_id": "session_2026-11-03_01",
+      "at": "2026-11-03T13:33:39Z",
+      "prompt": "Duas falhas de contador de eixos: uma de segurança e uma de disponibilidade.",
+      "result": "incorrect_then_correct_with_hint",
+      "autonomous": false,
+      "notes": "Classificou 'seção indicada ocupada' como falha de segurança. Com uma pista, chegou à contagem a mais na saída, que indica livre com o trem dentro. Não citou a consequência (colisão)."
+    }
+  ]
 }
