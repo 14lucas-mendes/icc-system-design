@@ -16,7 +16,7 @@ Projeto progressivo da formação: o centro de controle integrado de uma linha *
 
 | Fase | Entrega | Situação |
 |---|---|---|
-| 0 | Diagrama de contexto (`01-contexto.md`) | Pendente |
+| 0 | Diagrama de contexto (`01-contexto.md`) | Em andamento (tentativa 1) |
 | 1 | Conceito de operação | Pendente |
 | 2 | Plano de rede | Pendente |
 | 3 | Bancada PLC + SCADA | Pendente |

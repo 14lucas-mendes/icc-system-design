@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
   "study_id": "study_8eb50817-c4de-4edb-9fad-b9b4009c3e47",
-  "revision": 3,
-  "updated_at": "2026-11-03T13:33:39Z",
+  "revision": 4,
+  "updated_at": "2026-11-16T22:33:04Z",
   "topics": [
     {
       "topic_id": "topic_icc_visao",
       "name": "O que é um ICC: ATS, SCADA e segurança",
       "mastery": 0,
       "retention": "unknown",
-      "status": "in_progress",
+      "status": "not_started",
       "last_practice": null,
       "evidence_ids": []
     },
@@ -410,7 +410,17 @@
         "erros comuns da seção 1.6"
       ],
       "evidence_ids": [],
-      "notes": "Diálogo guiado com o tutor; não conta como evidência. Tarefa prática (01-contexto.md), Feynman e transferência pendentes."
+      "notes": "Diálogo guiado com o tutor; não conta como evidência. Tarefa prática (01-contexto.md), Feynman e transferência pendentes. Horário de início estimado.",
+      "transitions": [
+        "in_progress",
+        "completed"
+      ],
+      "resumable": false,
+      "lesson_ids": [
+        "lesson_01_icc_visao"
+      ],
+      "teaching_approach": "theory_first",
+      "checkpoint": "Teoria da Lição 01 (1.1 a 1.6) e checagens 1.7 feitas em diálogo guiado. Prática independente pendente."
     },
     {
       "session_id": "session_2026-11-03_01",
@@ -418,7 +428,7 @@
       "topic_ids": [
         "topic_icc_visao"
       ],
-      "started_at": "2026-11-03T00:00:00Z",
+      "started_at": "2026-11-03T13:00:00Z",
       "ended_at": "2026-11-03T13:33:39Z",
       "status": "interrupted",
       "objective": "Aquecimento no ponto fraco e tarefa independente da Lição 01, partes 1 e 2.",
@@ -427,7 +437,17 @@
         "tentativa 1 da Parte 1 do 01-contexto.md"
       ],
       "evidence_ids": [],
-      "notes": "Tentativa 1 parcial: só a Parte 1, sem a tabela de funções. A autoconferência foi pedida e ainda não feita; não houve retorno do tutor. Sem evidência até a revisão."
+      "notes": "Tentativa 1 da Parte 1 reproduz o fluxograma da seção 1.2 da lição (arquitetura ATS-intertravamento-via), não o diagrama de contexto pedido. Como a estrutura foi fornecida pelo tutor, ela não conta como evidência autônoma do diagrama (Reasoning ownership). Classificação final depois da autoconferência. Horário de início estimado a partir dos commits.",
+      "transitions": [
+        "in_progress",
+        "interrupted"
+      ],
+      "resumable": true,
+      "lesson_ids": [
+        "lesson_01_icc_visao"
+      ],
+      "teaching_approach": "theory_first",
+      "checkpoint": "Tentativa 1 da tarefa independente salva em projects/icc-linha-aurora/01-contexto.md, só com a Parte 1. A autoconferência ('Confira sua solução contra cada regra e exemplo da tarefa') foi pedida e não foi feita. Nenhum retorno de conteúdo foi dado. Próximo passo: retomar esta sessão com uma recuperação curta da teoria, a autoconferência e a tentativa 2 (Partes 1 e 2)."
     }
   ],
   "lessons": [
@@ -696,20 +716,24 @@
   ],
   "weak_points": [
     {
-      "weak_point_id": "wp_falha_seguranca_vs_vital",
+      "weak_point_id": "weak_falha_seguranca_vs_disponibilidade",
       "topic_id": "topic_icc_visao",
-      "description": "Definiu falha de segurança como 'sistema vital falhou'; o critério é o lado da falha (wrong-side vs right-side). Corrigido em diálogo, reavaliar sem ajuda. 2026-11-03: erro repetido no aquecimento; acertou só com pista. Continua aberto.",
-      "detected_at": "2026-11-02T16:50:46Z",
-      "session_id": "session_2026-11-02_01",
-      "status": "open"
+      "category": "conceptual",
+      "cause": "Classifica a falha pelo sistema que falhou ou pelo efeito restritivo, e não pelo lado para onde ela vai (wrong-side × right-side). Repetiu em session_2026-11-02_01 e session_2026-11-03_01.",
+      "supporting_evidence_ids": [],
+      "entered_at": "2026-11-03T13:15:00Z",
+      "exit_condition": "Duas evidências autônomas corretas, em sessões diferentes, classificando falhas de segurança e de disponibilidade com justificativa.",
+      "status": "active"
     },
     {
-      "weak_point_id": "wp_justificativas_curtas",
+      "weak_point_id": "weak_justificativas_curtas",
       "topic_id": "topic_icc_visao",
-      "description": "Respostas corretas, mas sem justificativa (erros comuns 1.6 respondidos só com certo/errado; afirmou que ICC é produto de prateleira e dura tanto quanto os trens).",
-      "detected_at": "2026-11-02T16:50:46Z",
-      "session_id": "session_2026-11-02_01",
-      "status": "open"
+      "category": "precision",
+      "cause": "Respostas sem justificativa nas checagens da teoria de session_2026-11-02_01. Arquivado: as checagens da teoria não são evidência e o padrão não se repetiu duas vezes em tarefas avaliadas, então não cumpre o critério de criação do Learning Contract.",
+      "supporting_evidence_ids": [],
+      "entered_at": "2026-11-02T16:50:46Z",
+      "exit_condition": "Reabrir se faltar justificativa em duas tarefas avaliadas.",
+      "status": "archived"
     }
   ],
   "projects": [
@@ -769,14 +793,24 @@
   "diagnostics": [],
   "retrieval_attempts": [
     {
-      "attempt_id": "ra_2026-11-03_01",
-      "topic_id": "topic_icc_visao",
+      "retrieval_id": "retrieval_2026-11-03_01",
       "session_id": "session_2026-11-03_01",
-      "at": "2026-11-03T13:33:39Z",
-      "prompt": "Duas falhas de contador de eixos: uma de segurança e uma de disponibilidade.",
-      "result": "incorrect_then_correct_with_hint",
-      "autonomous": false,
-      "notes": "Classificou 'seção indicada ocupada' como falha de segurança. Com uma pista, chegou à contagem a mais na saída, que indica livre com o trem dentro. Não citou a consequência (colisão)."
+      "topic_id": "topic_icc_visao",
+      "prompt": "Descreva duas falhas de um contador de eixos: uma de segurança e uma só de disponibilidade, com justificativa.",
+      "outcome": "incorrect",
+      "support_level": 0,
+      "recorded_at": "2026-11-03T13:10:00Z",
+      "notes": "Explicou o mecanismo de contagem corretamente, mas classificou 'seção indicada ocupada' como falha de segurança."
+    },
+    {
+      "retrieval_id": "retrieval_2026-11-03_02",
+      "session_id": "session_2026-11-03_01",
+      "topic_id": "topic_icc_visao",
+      "prompt": "Qual erro de contagem faria a seção indicar livre com o trem dentro, e o que poderia acontecer em seguida?",
+      "outcome": "partial",
+      "support_level": 3,
+      "recorded_at": "2026-11-03T13:15:00Z",
+      "notes": "Depois de uma régua de classificação e de uma pergunta direcional, identificou a contagem a mais na saída. Não citou a consequência (colisão)."
     }
   ]
 }
