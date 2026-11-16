@@ -184,6 +184,10 @@ Registrar evidências em `.ai-tutor/state.json`, ligar a sessão à lição, atu
 
 ## 3. Progresso
 
-- **Situação:** em andamento. Teoria e checagens feitas em `session_2026-11-02_01` (diálogo guiado).
-- **Evidências:** nenhuma.
-- **Falta:** leitura com checagens, tarefa independente, Feynman e transferência.
+- **Situação:** em andamento. A teoria está escrita e o tema conta como ensinado. Falta a prática independente.
+- **Sessões:** `session_2026-11-02_01` (teoria e checagens em diálogo guiado, concluída) e `session_2026-11-03_01` (interrompida, retomável).
+- **Checkpoint:** a tentativa 1 de `projects/icc-linha-aurora/01-contexto.md` tem só a Parte 1 e repete o fluxograma da seção 1.2. Por isso não conta como evidência autônoma do diagrama de contexto. A autoconferência foi pedida e ainda não foi feita.
+- **Evidências:** nenhuma. Domínio 0.
+- **Ponto fraco ativo:** `weak_falha_seguranca_vs_disponibilidade`.
+- **Próximo passo:** retomar `session_2026-11-03_01`. Começar com uma recuperação curta da teoria, sem consulta. Depois fazer a autoconferência da tentativa 1 e a tentativa 2, com as Partes 1 e 2.
+- **Falta:** tarefa independente completa (Partes 1 a 3), Feynman e transferência.
