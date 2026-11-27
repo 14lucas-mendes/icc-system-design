@@ -4,7 +4,7 @@
 
 **Ritmo:** 3 sessões de 90 minutos por semana (4,5 h). São 43 temas. Com cerca de 3 sessões por tema, a formação leva de 10 a 12 meses. Não há prazo fixo.
 
-**Abordagem:** `theory_first`. Todo tema começa do zero neste estudo, com aula completa: o problema, como funciona, vocabulário em português e inglês, exemplos, erros comuns e checagens. A prática vem depois. Experiência profissional e estudos em outros programas não encurtam a teoria nem contam como evidência.
+**Abordagem:** `theory_first`. Todo tema começa do zero neste estudo, com aula completa no formato "ver primeiro, nome depois": a ideia em uma frase, o problema num caso concreto, passos curtos que mostram o caso funcionando antes de dar o nome técnico, analogias (de preferência da experiência de campo), exemplo aprofundado, glossário PT/EN no fim, erros comuns e checagens. A prática vem depois. Experiência profissional e estudos em outros programas não encurtam a teoria nem contam como evidência.
 
 ## Projeto progressivo: ICC Linha Aurora
 
